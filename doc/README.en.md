@@ -79,9 +79,9 @@ After changing and saving the check frequency, Cloud-HFS immediately runs a vers
 ## License and Terms of Use
 
 Detailed license and copyright information has been moved to:
-* [LICENSE_zh-TW.md](../LICENSE_zh-TW.md) (繁體中文)
-* [LICENSE_zh-CN.md](../LICENSE_zh-CN.md) (简体中文)
-* [LICENSE_en.md](../LICENSE_en.md) (English)
+* [LICENSE_zh-TW.md](LICENSE_zh-TW.md) (繁體中文)
+* [LICENSE_zh-CN.md](LICENSE_zh-CN.md) (简体中文)
+* [LICENSE_en.md](LICENSE_en.md) (English)
 
 ---
 

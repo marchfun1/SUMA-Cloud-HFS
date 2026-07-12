@@ -79,9 +79,9 @@ Beta 測試版本可能設有使用期限，目的不是作為付費門檻，而
 ## 授權與使用條款
 
 詳細的版權聲明與授權條款已移至：
-* [LICENSE_zh-TW.md](../LICENSE_zh-TW.md) (繁體中文)
-* [LICENSE_zh-CN.md](../LICENSE_zh-CN.md) (简体中文)
-* [LICENSE_en.md](../LICENSE_en.md) (English)
+* [LICENSE_zh-TW.md](LICENSE_zh-TW.md) (繁體中文)
+* [LICENSE_zh-CN.md](LICENSE_zh-CN.md) (简体中文)
+* [LICENSE_en.md](LICENSE_en.md) (English)
 
 ---
 
