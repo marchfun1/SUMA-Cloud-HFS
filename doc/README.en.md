@@ -78,11 +78,10 @@ After changing and saving the check frequency, Cloud-HFS immediately runs a vers
 
 ## License and Terms of Use
 
-**License Notice:** This software is protected by copyright law, and the copyright belongs to LOCALSOFT Digital Studio.
-
-1. **License and Distribution:** This software is free for personal and enterprise users to download and use. Free copying and distribution is permitted provided the original installation package remains intact (without any modification, unpacking, or rearrangement).
-2. **Usage Restrictions:** Without official written authorization, reverse engineering, decompilation, modification, or disassembly of this software is prohibited. This software shall not be used for commercial purposes, resold as repackaged, rented, or provided as a paid download resource.
-3. **Disclaimer:** This software is provided As-Is without any express or implied warranties. To the fullest extent permitted by law, the developer shall not be liable for any direct, indirect, incidental, or consequential damages (including but not limited to data loss, system failure, business interruption, or loss of profits) arising from the use or inability to use this software.
+Detailed license and copyright information has been moved to:
+* [LICENSE_zh-TW.md](../LICENSE_zh-TW.md) (繁體中文)
+* [LICENSE_zh-CN.md](../LICENSE_zh-CN.md) (简体中文)
+* [LICENSE_en.md](../LICENSE_en.md) (English)
 
 ---
 
