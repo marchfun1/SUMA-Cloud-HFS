@@ -17,6 +17,8 @@ Through Cloudflare's remote secure tunnel (reverse proxy), **no account registra
 
 *For cross-network sharing, enable "Cloudflare Sharing" and start remote sharing.*
 
+> 💡 **Linux CLI Server Version**: If you are running on a Linux server, NAS, or headless environment, please refer to the [Linux CLI Installation and Usage Guide](INSTALL_Cloud-HFS_LINUX_CLI.en.md).
+
 ---
 
 ## Overview

@@ -6,13 +6,6 @@
 
 ---
 
-## 🌎 Guide Languages / 說明文件語言
-* 繁體中文 (Traditional Chinese): [INSTALL_Cloud-HFS_LINUX_CLI.zh-TW.md](INSTALL_Cloud-HFS_LINUX_CLI.zh-TW.md)
-* 简体中文 (Simplified Chinese): [INSTALL_Cloud-HFS_LINUX_CLI.zh-CN.md](INSTALL_Cloud-HFS_LINUX_CLI.zh-CN.md)
-* English: [INSTALL_Cloud-HFS_LINUX_CLI.en.md](INSTALL_Cloud-HFS_LINUX_CLI.en.md)
-
----
-
 ## 📥 下載 Linux CLI 執行檔
 
 目前提供測試版本的 GitHub Release 下載連結（以最新的測試版本為例）：
@@ -41,7 +34,7 @@ curl -L -O https://github.com/localsoft-suma/SUMA-Cloud-HFS/releases/download/te
 chmod +x cloud-hfs-daemon
 ```
 
-*（可選）如果您想在 any 路徑直接執行，可以將其移動至系統環境路徑下：*
+*（可選）如果您想在任何路徑直接執行，可以將其移動至系統環境路徑下：*
 ```bash
 sudo mv cloud-hfs-daemon /usr/local/bin/
 ```
