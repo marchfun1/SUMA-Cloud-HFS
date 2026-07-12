@@ -2,7 +2,7 @@
 
 ### Cloud HTTP File Sharing / 雲端 HTTP 檔案分享工具
 
-SUMA Cloud-HFS（Cloud HTTP File Sharing 的縮寫）是免費、免帳號即可使用的 Windows 桌面檔案分享服務，可在區域網路中分享檔案，或透過 Cloudflare Tunnel 建立臨時的遠端下載網址。由 [域創數位工作室 (LOCALSOFT Digital Studio)](https://suma.tw) 開發。
+SUMA Cloud-HFS（Cloud HTTP File Sharing 的縮寫）是免費、免帳號即可使用的跨平台檔案分享服務，可在區域網路中分享檔案，或透過 Cloudflare Tunnel 建立臨時的遠端下載網址。由 [域創數位工作室 (LOCALSOFT Digital Studio)](https://suma.tw) 開發。
 
 透過 Cloudflare 遠端安全通道（內網穿透），**不需要註冊帳號，也不需要 Cloudflare 帳號**即可建立一個臨時的公開下載連結，讓身處不同網路環境（非本機區域網路）的遠端用戶直接下載您所分享的本機檔案。此技術可完美穿透防火牆與寬頻內部網路（NAT/CGNAT），無需固定公網 IP 亦不需進行 any 連接埠對應與轉送設定。
 

@@ -2,7 +2,7 @@
 
 ### Cloud HTTP File Sharing / Cloud-based HTTP File Sharing Tool
 
-SUMA Cloud-HFS (Cloud HTTP File Sharing) is a free, no-account-required Windows desktop file sharing service. It lets you share files over your local network, or create temporary remote download links via Cloudflare Tunnel. Developed by [LOCALSOFT Digital Studio](https://suma.tw).
+SUMA Cloud-HFS (Cloud HTTP File Sharing) is a free, no-account-required cross-platform file sharing service. It lets you share files over your local network, or create temporary remote download links via Cloudflare Tunnel. Developed by [LOCALSOFT Digital Studio](https://suma.tw).
 
 Through Cloudflare's remote secure tunnel (reverse proxy), **no account registration and no Cloudflare account needed** to create a temporary public download link, enabling remote users on different networks to directly download files from your computer. This technology perfectly bypasses firewalls and broadband internal networks (NAT/CGNAT), requires no static public IP and no port forwarding configuration.
 
