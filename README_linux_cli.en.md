@@ -2,41 +2,44 @@
 
 ### Cloud HTTP File Sharing / Cloud HTTP File Sharing Tool
 
-This guide will walk you through downloading, deploying, and using **SUMA Cloud-HFS Linux CLI Version (cloud-hfs-daemon)** on Linux servers, NAS, or headless environments.
+This guide will walk you through downloading, deploying, and using **SUMA Cloud-HFS Linux CLI Version (Cloud-HFS)** on Linux servers, NAS, or headless environments.
 
 ---
 
 ## 📥 Download Linux CLI Binary
 
-The GitHub Release download links for the test versions are currently available:
+The GitHub Release download links are currently available (using version 0.10.5 as an example):
 
 - **Linux x86_64 (64-bit) Test Version Download:**
-  [https://github.com/localsoft-suma/SUMA-Cloud-HFS/releases/download/test-release/cloud-hfs-daemon](https://github.com/localsoft-suma/SUMA-Cloud-HFS/releases/download/test-release/cloud-hfs-daemon)
+  [https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz](https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5%20Beta_Linux-CLI_amd64.tar.gz)
 
 You can download it directly in your Linux terminal using `wget` or `curl` commands:
 
 ```bash
 # Download using wget
-wget https://github.com/localsoft-suma/SUMA-Cloud-HFS/releases/download/test-release/cloud-hfs-daemon
+wget "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
 
 # Or download using curl
-curl -L -O https://github.com/localsoft-suma/SUMA-Cloud-HFS/releases/download/test-release/cloud-hfs-daemon
+curl -L -O "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
 ```
 
 ---
 
 ## 🛠️ Installation & Permissions
 
-Once downloaded, move the executable binary to your desired directory and grant execution permissions:
+Once downloaded, extract the archive, move the executable binary to your desired directory, and grant execution permissions:
 
 ```bash
+# Extract the tar.gz file (using version 0.10.5 as an example)
+tar -zxvf "SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
+
 # Grant execution permissions
-chmod +x cloud-hfs-daemon
+chmod +x Cloud-HFS
 ```
 
 *(Optional) If you want to execute it from any path, you can move it to the system environment path:*
 ```bash
-sudo mv cloud-hfs-daemon /usr/local/bin/
+sudo mv Cloud-HFS /usr/local/bin/
 ```
 
 ---
@@ -47,25 +50,25 @@ The CLI version supports running in the background as a daemon, so the file-shar
 
 ### 1. Start the Background Service
 ```bash
-./cloud-hfs-daemon --start
+./Cloud-HFS --start
 ```
-*After starting, it will automatically generate `cloud-hfs-daemon.pid` in the same directory to record the process ID and auto-start the file-sharing service by default.*
+*After starting, it will automatically generate `Cloud-HFS.pid` in the same directory to record the process ID and auto-start the file-sharing service by default.*
 
 ### 2. Check Service Status
 ```bash
-./cloud-hfs-daemon --status
+./Cloud-HFS --status
 ```
 *If the service is running, it will show the current process PID and the admin web portal URL.*
 
 ### 3. Stop the Background Service
 ```bash
-./cloud-hfs-daemon --stop
+./Cloud-HFS --stop
 ```
 *Safely stops the file-sharing service and the Web administration panel.*
 
 ### 4. Run in the Foreground (Interactive Mode)
 ```bash
-./cloud-hfs-daemon --serve
+./Cloud-HFS --serve
 ```
 *If you want to integrate this service with system service managers like systemd, you can use this parameter.*
 
@@ -88,7 +91,7 @@ After the CLI version is started, it will set up a lightweight web-based admin p
 
 On Linux, system configurations and database are stored in the user's `.config` directory by default:
 - **Settings & DB Directory**: `~/.config/cloud-hfs/`
-- **Background Service Log (Log)**: Stored in `~/.config/cloud-hfs/cloud-hfs-daemon.log`
+- **Background Service Log (Log)**: Stored in `~/.config/cloud-hfs/Cloud-HFS.log`
 
 ---
 
