@@ -27,19 +27,20 @@ curl -L -O "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/
 
 ## 🛠️ Installation & Permissions
 
-Once downloaded, extract the archive, move the executable binary to your desired directory, and grant execution permissions:
+Once downloaded, extract the archive to the `suma-cloud-hfs` directory in your home folder and grant execution permissions:
 
 ```bash
-# Extract the tar.gz file (using version 0.10.5 as an example)
-tar -zxvf "SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz"
+# Extract the tar.gz file to ~/suma-cloud-hfs (using version 0.10.5 as an example)
+mkdir -p ~/suma-cloud-hfs
+tar -zxvf "SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz" -C ~/suma-cloud-hfs
 
 # Grant execution permissions
-chmod +x Cloud-HFS
+chmod +x ~/suma-cloud-hfs/Cloud-HFS
 ```
 
 *(Optional) If you want to execute it from any path, you can move it to the system environment path:*
 ```bash
-sudo mv Cloud-HFS /usr/local/bin/
+sudo ln -s ~/suma-cloud-hfs/Cloud-HFS /usr/local/bin/Cloud-HFS
 ```
 
 ---
@@ -50,25 +51,25 @@ The CLI version supports running in the background as a daemon, so the file-shar
 
 ### 1. Start the Background Service
 ```bash
-./Cloud-HFS --start
+~/suma-cloud-hfs/Cloud-HFS --start
 ```
 *After starting, it will automatically generate `Cloud-HFS.pid` in the same directory to record the process ID and auto-start the file-sharing service by default.*
 
 ### 2. Check Service Status
 ```bash
-./Cloud-HFS --status
+~/suma-cloud-hfs/Cloud-HFS --status
 ```
 *If the service is running, it will show the current process PID and the admin web portal URL.*
 
 ### 3. Stop the Background Service
 ```bash
-./Cloud-HFS --stop
+~/suma-cloud-hfs/Cloud-HFS --stop
 ```
 *Safely stops the file-sharing service and the Web administration panel.*
 
 ### 4. Run in the Foreground (Interactive Mode)
 ```bash
-./Cloud-HFS --serve
+~/suma-cloud-hfs/Cloud-HFS --serve
 ```
 *If you want to integrate this service with system service managers like systemd, you can use this parameter.*
 
