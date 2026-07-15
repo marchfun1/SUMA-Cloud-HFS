@@ -11,16 +11,16 @@
 目前提供测试版本的 GitHub Release 下载链接（以 0.10.5 版本为例）：
 
 - **Linux x86_64 (64位) 测试版本下载：**
-  [https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz](https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5%20Beta_Linux-CLI_amd64.tar.gz)
+  [https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz](https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz)
 
 您可以直接在 Linux 终端中使用 `wget` 或 `curl` 命令进行下载：
 
 ```bash
 # 使用 wget 下载
-wget "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
+wget "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz"
 
 # 或使用 curl 下载
-curl -L -O "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
+curl -L -O "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz"
 ```
 
 ---
@@ -31,7 +31,7 @@ curl -L -O "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/
 
 ```bash
 # 解压 tar.gz (以 0.10.5 版本为例)
-tar -zxvf "SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
+tar -zxvf "SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz"
 
 # 赋予执行权限
 chmod +x Cloud-HFS

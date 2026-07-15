@@ -11,16 +11,16 @@ This guide will walk you through downloading, deploying, and using **SUMA Cloud-
 The GitHub Release download links are currently available (using version 0.10.5 as an example):
 
 - **Linux x86_64 (64-bit) Test Version Download:**
-  [https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz](https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5%20Beta_Linux-CLI_amd64.tar.gz)
+  [https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz](https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz)
 
 You can download it directly in your Linux terminal using `wget` or `curl` commands:
 
 ```bash
 # Download using wget
-wget "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
+wget "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz"
 
 # Or download using curl
-curl -L -O "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
+curl -L -O "https://github.com/marchfun1/SUMA-Cloud-HFS/releases/download/01005/SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz"
 ```
 
 ---
@@ -31,7 +31,7 @@ Once downloaded, extract the archive, move the executable binary to your desired
 
 ```bash
 # Extract the tar.gz file (using version 0.10.5 as an example)
-tar -zxvf "SUMA-Cloud-HFS_0.10.5 Beta_Linux-CLI_amd64.tar.gz"
+tar -zxvf "SUMA-Cloud-HFS_0.10.5.Beta_Linux-CLI_amd64.tar.gz"
 
 # Grant execution permissions
 chmod +x Cloud-HFS
