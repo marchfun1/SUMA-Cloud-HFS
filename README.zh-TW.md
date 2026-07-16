@@ -17,7 +17,7 @@ SUMA Cloud-HFS（Cloud HTTP File Sharing 的縮寫）是免費、免帳號即可
 
 *如需跨網路分享，請開啟「Cloudflare 分享」並啟動遠端分享。*
 
-> 💡 **Linux CLI 伺服器版本**：如果您是在 Linux 伺服器、NAS 或無頭環境下運行，請參閱 [Linux CLI 版本安裝與使用說明](INSTALL_Cloud-HFS_LINUX_CLI.zh-TW.md)。
+> 💡 **Linux CLI 伺服器版本**：如果您是在 Linux 伺服器、NAS 或無頭環境下執行，請參閱 [Linux CLI 版本安裝與使用說明](INSTALL_Cloud-HFS_LINUX_CLI.zh-TW.md)。
 
 ---
 
